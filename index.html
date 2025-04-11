@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swad-e-Ratlam</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Swad-e-Ratlam</h1>
+        <p>Authentic Ratlami Namkeen – Taste the Tradition, Delivered Fresh!</p>
+        <a href="#contact" class="cta-button">Shop Now</a>
+        <img src="./logo.png" alt="Swad-e-Ratlam Logo" class="logo">
+    </header>
+
+    <section class="section">
+        <h2>Our Bestsellers</h2>
+        <div class="products">
+            <div class="product">
+                <img src="ratlami-sev (1).png" alt="Ratlami Sev">
+                <h3>Ratlami Sev</h3>
+                <p>Crispy, spicy, and iconic – straight from Ratlam.</p>
+                <a href="#contact" class="buy-button">Buy Now</a>
+            </div>
+            <div class="product">
+                <img src="khata meetha.jpg" alt="Khatta Meetha">
+                <h3>Khatta Meetha</h3>
+                <p>A tangy and sweet mix that everyone loves!</p>
+                <a href="#contact" class="buy-button">Buy Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Our Gallery</h2>
+        <div class="products">
+            <div class="product">
+                <img src="image.2.png" alt="Namkeen Collection">
+                <h3>Namkeen Collection</h3>
+                <p>Enjoy the best of traditional flavors.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial-container">
+            <div class="testimonial">
+                <p>“Absolutely delicious namkeen! Reminds me of home. Will definitely order again.”</p>
+                <h4>– Priya M., Mumbai</h4>
+            </div>
+            <div class="testimonial">
+                <p>“Fresh, crunchy, and perfectly spiced. Loved the packaging too!”</p>
+                <h4>– Ramesh K., Bangalore</h4>
+            </div>
+            <div class="testimonial">
+                <p>“The Ratlami Sev is the best I’ve had outside Ratlam. Highly recommended!”</p>
+                <h4>– Anjali S., Delhi</h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Why Swad-e-Ratlam?</h2>
+        <p>Traditional recipes | Premium ingredients | Handmade with love | Delivered nationwide</p>
+    </section>
+
+    <section class="section">
+        <h2>About Us</h2>
+        <p>At Swad-e-Ratlam, we bring the rich, bold flavors of Ratlam to your home. Our namkeen is made with
+            time-honored recipes and the finest ingredients. Taste the legacy in every bite!</p>
+    </section>
+
+    <!-- Contact Section with id="contact" for scroll -->
+    <section class="section" id="contact">
+        <h2>Connect With Us</h2>
+        <div class="form-container">
+            <form id="whatsappForm" onsubmit="sendToWhatsApp(); return false;">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+            <div class="contact-details">
+                <p><strong>Email:</strong> swaderatlam@gmail.com</p>
+                <p><strong>Phone:</strong> +91 7204027477</p>
+                <p><strong>Address:</strong> GC 52 Aditya Crest, Indirapuram, Ghaziabad, Uttar Pradesh 201014</p>
+            </div>
+
+            <div class="social-links">
+                <a href="https://wa.me/917204027477" target="_blank">📱 WhatsApp</a>
+                <a href="https://facebook.com/swaderatlam" target="_blank">📘 Facebook</a>
+                <a href="https://instagram.com/swaderatlam" target="_blank">📷 Instagram</a>
+            </div>
+
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps?q=GC+52+Aditya+Crest,+Indirapuram,+Ghaziabad,+Uttar+Pradesh+201014&output=embed"
+                    allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Swad-e-Ratlam. All rights reserved.</p>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/917204027477" class="whatsapp-float" target="_blank" title="Chat with us on WhatsApp">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp"
+            class="whatsapp-icon">
+    </a>
+
+</body>
+
+<!-- If needed, JavaScript for WhatsApp submission can go here -->
+<script src="index.js"></script>
+
+</html>
