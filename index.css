@@ -231,4 +231,31 @@
       html {
         scroll-behavior: smooth;
     }
+    .price-table {
+        overflow-x: auto;
+        margin-top: 20px;
+    }
+    
+    .price-table table {
+        width: 100%;
+        border-collapse: collapse;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .price-table th, .price-table td {
+        padding: 12px 15px;
+        text-align: center;
+        border: 1px solid #ddd;
+    }
+    
+    .price-table th {
+        background-color: #f4b400;
+        color: white;
+    }
+    
+    .price-table img {
+        border-radius: 8px;
+        max-height: 80px;
+        object-fit: cover;
+    }
     
