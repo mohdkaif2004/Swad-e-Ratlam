@@ -258,4 +258,12 @@
         max-height: 80px;
         object-fit: cover;
     }
-    
+    project-folder/
+├── index.html
+├── images/
+│   └── main-logo.png
+.logo {
+    width: 120px;
+    height: auto;
+    margin-top: 10px;
+}
